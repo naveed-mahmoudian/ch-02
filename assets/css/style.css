@@ -4,3 +4,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+#header-text {
+    background-color: orange;
+
+}
+
+.inline {
+    display: inline;
+}
+
+li {
+    margin: 0px 5px;
+    padding: 5px;
+}
