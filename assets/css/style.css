@@ -49,7 +49,7 @@ img {
     width: 100%;
 }
 
-/* Flexbox */
+/* Flexbox Container */
 body {
     width: 100%;
 }
@@ -80,10 +80,19 @@ body {
     border-right: 2px solid blue;
 }
 
+/* Flexbox for About Me Section */
 #about-paragraph {
     width: 70%;
 }
 
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Flexbox for Work Section */
 .work {
     display: flex;
     flex-direction: row;
@@ -102,4 +111,9 @@ body {
     height: 150px;
     object-fit: cover;
     padding: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
 }
