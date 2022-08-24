@@ -65,23 +65,23 @@ body {
 
 .main-section {
     display: flex;
-    justify-content: left;
-    align-items: flex-start;
+    justify-content: space-between;
     width: 100%;
     padding: 20px;
+   
 }
 
 .section-heading {
     display: flex;
-    align-items: flex-start;
-    justify-content: left;
+    align-content: center;
+    align-items: center;
     font-size: 3em;
-    width: 10%;
+    width: 300px;
+    border-right: 2px solid blue;
 }
 
 #about-paragraph {
-    border-left: 3px solid blue;
-    padding-left: 20px;
+    width: 70%;
 }
 
 .work {
@@ -89,7 +89,6 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     padding: 20px;
-    border-left: 3px solid blue;
 }
 
 #work-highlight {
@@ -104,4 +103,3 @@ body {
     object-fit: cover;
     padding: 10px;
 }
-
