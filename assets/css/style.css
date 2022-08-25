@@ -35,20 +35,6 @@ figcaption {
     object-fit: cover;
 }
 
-/* Misc */
-.inline {
-    display: inline;
-}
-
-li {
-    margin: 0px 5px;
-    padding: 5px;
-}
-
-img {
-    width: 100%;
-}
-
 /* Flexbox Container */
 body {
     width: 100%;
@@ -77,7 +63,7 @@ body {
     align-items: center;
     font-size: 3em;
     width: 300px;
-    border-right: 2px solid blue;
+    border-right: 3px solid blue;
 }
 
 /* Flexbox for About Me Section */
@@ -116,4 +102,26 @@ body {
 /* Footer */
 footer {
     text-align: center;
+}
+
+
+/* Misc */
+.inline {
+    display: inline;
+}
+
+li {
+    margin: 0px 5px;
+    padding: 5px;
+}
+
+main img {
+    width: 100%;
+    opacity: 20%;
+}
+
+main img:hover {
+    opacity: 100%;
+    cursor: pointer;
+    transition: all 0.7s ease;
 }
