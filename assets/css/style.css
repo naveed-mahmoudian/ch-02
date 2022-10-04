@@ -111,7 +111,7 @@ body {
     padding: 20px;
 }
 
-#proj-title-1 {
+#proj-title-highlight {
     position: absolute;
     top: 300px;
     left: 40px;
@@ -122,7 +122,7 @@ body {
     color: white;
 }
 
-#proj-title-2 {
+#proj-title-1 {
     position: absolute;
     top: 510px;
     left: 40px;
@@ -133,9 +133,20 @@ body {
     color: white;
 }
 
-#proj-title-3 {
+#proj-title-2 {
     position: absolute;
     top: 720px;
+    left: 40px;
+    font-size: 1.1em;
+    background-color: var(--darkest);
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+
+#proj-title-3 {
+    position: absolute;
+    top: 930px;
     left: 40px;
     font-size: 1.1em;
     background-color: var(--darkest);
