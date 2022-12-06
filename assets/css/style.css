@@ -124,7 +124,7 @@ body {
 
 #proj-title-1 {
     position: absolute;
-    top: 510px;
+    top: 520px;
     left: 40px;
     font-size: 1.1em;
     background-color: var(--darkest);
@@ -135,7 +135,7 @@ body {
 
 #proj-title-2 {
     position: absolute;
-    top: 720px;
+    top: 730px;
     left: 40px;
     font-size: 1.1em;
     background-color: var(--darkest);
@@ -147,6 +147,17 @@ body {
 #proj-title-3 {
     position: absolute;
     top: 930px;
+    left: 40px;
+    font-size: 1.1em;
+    background-color: var(--darkest);
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+
+#proj-title-4 {
+    position: absolute;
+    top: 1140px;
     left: 40px;
     font-size: 1.1em;
     background-color: var(--darkest);
